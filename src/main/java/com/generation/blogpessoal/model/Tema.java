@@ -23,9 +23,6 @@ public class Tema {
 	
 	private Long id;
 	
-	@NotNull
-	private String tipo;
-	
 	@NotBlank
 	private String descricao;
 
@@ -39,10 +36,6 @@ public class Tema {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public String getTipo() {
-		return tipo;
 	}
 
 	public String getDescricao() {
@@ -59,10 +52,6 @@ public class Tema {
 
 	public void setPostagem(List<Postagem> postagem) {
 		this.postagem = postagem;
-	}
-
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
 	}
 
 }
